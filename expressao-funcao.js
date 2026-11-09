@@ -6,5 +6,11 @@ const estudanteReprovou = (notaFinal, faltas) => {
     }
 }
 
+// normalmente usada em callback functions
+const exibeNomeEstudante = (nome) => nome
+
 console.log(estudanteReprovou(6, 5));
 console.log(estudanteReprovou(10, 2));
+
+console.log(exibeNomeEstudante('Caroline'));
+
